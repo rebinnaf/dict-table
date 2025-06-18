@@ -4,7 +4,6 @@ import Aura from '@primeuix/themes/aura'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
-  ssr: false,
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   nitro: {
@@ -34,7 +33,7 @@ export default defineNuxtConfig({
       },
     },
     components: {
-      exclude: ['Form', 'FormField'],
+      exclude: ['Editor', 'Form', 'FormField', 'Chart'],
     },
   },
 })
