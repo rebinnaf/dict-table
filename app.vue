@@ -1,19 +1,20 @@
 <script lang="ts" setup>
-import "~/assets/tokens.css";
+import '~/assets/tokens.css'
 </script>
+
 <template>
-	<Head>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="shortcut icon" href="logo_small.svg" />
-	</Head>
-	<main data-theme="light">
-		<nuxt-page />
-	</main>
+  <Head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="shortcut icon" href="logo_small.svg">
+  </Head>
+  <main data-theme="light">
+    <nuxt-page />
+  </main>
 </template>
 
 <style>
